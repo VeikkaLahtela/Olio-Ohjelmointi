@@ -13,4 +13,4 @@ public:
     double laskekulutus(double hinta);
 };
 
-#endif // ASUNTO_H
+#endif 
