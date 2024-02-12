@@ -13,7 +13,7 @@ private:
 
 public:
     Kerrostalo();
-    ~Kerrostalo(); // Lisätty
+    ~Kerrostalo(); 
     double laskekulutus(double hinta);
 };
 
