@@ -11,7 +11,7 @@ private:
 
 public:
     Katutaso();
-    ~Katutaso(); // Lisätty
+    ~Katutaso(); 
     void maaritaasunnot();
     double laskekulutus(double hinta);
 };
