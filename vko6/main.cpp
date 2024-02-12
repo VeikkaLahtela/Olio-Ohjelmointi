@@ -4,7 +4,7 @@
 #include <iostream>
 #include "katutaso.h"
 #include "kerros.h"
-#include "kerrostalo.h" // Lisätty
+#include "kerrostalo.h"
 using namespace std;
 
 
@@ -23,7 +23,7 @@ int main() {
     double kulutus = eka->laskekulutus(1) + toka->laskekulutus(1) + kolmas->laskekulutus(1);
     cout << "Kerrostalon kulutus, kun hinta=1 on " << kulutus << endl;
 
-    // Vapautetaan varatut muistialueet
+    
     delete eka;
     delete toka;
     delete kolmas;
