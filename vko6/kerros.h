@@ -13,7 +13,7 @@ private:
 
 public:
     Kerros();
-    ~Kerros(); // Lisätty
+    ~Kerros(); 
     void maaritaasunnot();
     double laskekulutus(double hinta);
 };
